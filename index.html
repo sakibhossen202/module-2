@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding CSS</title>
+    <style>
+        body{
+            background-color: yellowgreen;
+        }
+        h1{
+            color:white;
+        }
+        p{
+            background-color: tomato;
+            color:white;
+            height: 60px;
+            font-weight: 700;
+            font-size: 1em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            width: 75%;
+        }
+        #background-cng{
+            background-color: rgba(0, 0, 0, 0.466);
+            width: 50%;
+        }
+        #bold{
+            background-color: rgba(137, 43, 226, 0.774);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+        .body{
+            color: blue;
+        }
+        .body{
+            background-color: black;
+        }
+        .styleme{
+            background-color: brown;
+            color:white;
+            height: 102px;
+        }
+        h3.styleme{
+            font-weight: 200;
+        }
+        .single{
+            background-color: rgba(0, 0, 0, 0.548);
+        }
+        .blog{
+            background-color: rgba(137, 43, 226, 0.767);
+            color: black;
+            border: 2px sold grey;
+            border-radius: 8px 10px;
+            margin: 15px 20px;
+            padding: 20px 50px 25px 50px;
+        }
+        #loss{
+            background-color: chocolate;
+            font-size: 50px;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>We can use color in 4 ways on is direct by name of color,2nd use Hex color-code third is using rgba color pattern her 'a' indicate alpha which means opacity</h1>
+
+    <p class="font body">If we was use style internal css then use style tag. the particular element for applying style then {} bracket  and inside bracket first style and then : then value</p>
+
+    <p>We can define font-size in by em,inch,px,in,pt,mm,cm and font-weight by 700(bold) & 400(normal) including other measure amount and font-family by defining just font-family name</p>
+    <p id="background-cng">We can use width by px or % which is very important for responsiveness</p>
+    <center>
+        <h2 id="bold">we can use id by id="idname" then apply  particular effecct on that id starting with # </h2>
+    </center>
+
+    <p class="styleme boldme"> Class is use for apply same effect on some particular containee. when we want to apply class effect we have to use (.) and then name of class {} apply style inside this brackets.
+     </p>
+
+     <p class="styleme">same style in on no--1 paragraph example</p>
+     <p class="styleme">same style in on no--2 paragraph example</p>
+     <h3 class="styleme">same style in on no--3 paragraah examale</h3>
+     <h3 class="styleme">same style in on no--4 paragrah3h example</h3>
+     <p class="styleme">same style in on no--5 paragraph example. to add more class in one tag then (whitespace)</p>
+
+     <p class="styleme">Search for <span class="single"> advanced css selector & span used for a applying style in a single portion of webpage</span></p>
+
+     <div class="blog">
+         <center>
+            <h3>When we ask for applying more tag with same effect</h3>
+            <p>The have use div tag and inside this tag we can use the content</p>
+         </center>
+         <center>
+            <img src="img/bangla.png" alt="">
+            <img src="img/bangla2.jpg" alt="" width="500px" height="362px">
+         </center>
+         
+     </div> 
+     <div class="blog">
+        <center>
+            <h3 id="loss" >Your Industry never Cheat you</h3>
+            <p>This another div to see next effects</p>
+        </center>
+        <center>
+            <img src="img/sundar.webp" alt="">
+            <img src="img/bangla3.png" alt="">
+        </center>
+         <center>
+            <p>Border is important and border radius is also essential (12px 15px) means up to bottom 12px and right-left 15px here (12px 12px 12px 12px)(top-right-bottom-left)</p>
+         </center>
+         <p>Any content how much space it takes is depend on five things border,margin,padding,width,height this is knows as Box Model</p>
+     </div>
+
+</body>
+</html>
